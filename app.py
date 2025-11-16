@@ -21,8 +21,10 @@ DATA_PATH = "cleaned_data.csv"
 
 df = load_data(DATA_PATH)
 
-st.title("🏥 MediPulse AI — Hospital KPI Dashboard (2017)")
+st.title("🏥 Hospital KPI Dashboard (based on publically available data)")
 st.markdown("Interactive dashboard: select facility, filter demographics, and drill into KPIs, diagnoses and insights.")
+st.markdown("Note: The dashboard is built for personal learning, not for regulatory, clinical, or business decision-making.")
+
 
 # Sidebar filters
 with st.sidebar:
